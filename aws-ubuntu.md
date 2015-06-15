@@ -148,7 +148,7 @@ $ cd ~/workspace
 ```
 Now clone the app
 ```sh
-$ git clone https://github.com/adam-phillipps/saws.git
+$ git clone <github repository address>
 ```
 You should enter your github username and password
 
@@ -253,6 +253,6 @@ $ sudo service apache2 restart
 
 That's all.
 Now you should see the app
-Open http://ec2-52-26-121-108.us-west-2.compute.amazonaws.com/
+Open http://<yourmachine>.compute.amazonaws.com/
 
-> Written by [Paul Lin](https://www.upwork.com/users/~01d8caaa8e0f732462).
+> Written by [Paul Lin](mailto:linp21847@gmail.com).
