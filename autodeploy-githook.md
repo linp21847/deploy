@@ -7,7 +7,7 @@ $ mkdir repo && cd repo
 $ mkdir site.git && cd site.git
 $ git init --bare
 ```
-```sh--bare``` means that our folder will have no source files, just the version control.
+```--bare``` means that our folder will have no source files, just the version control.
 
 ## Step 2. Hooks
 
@@ -34,7 +34,7 @@ When you execute this command, you will have a blank line indicating that everyt
 git --work-tree=/var/www/domain.com --git-dir=/var/repo/site.git checkout -f
 ```
 
-We can check to see if the ref the server is receiving has this format by using an ```sh if ``` construct:
+We can check to see if the ref the server is receiving has this format by using an ```if``` construct:
 ```sh
 #!/bin/bash
 while read oldrev newrev ref
