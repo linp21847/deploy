@@ -3,3 +3,5 @@ This is document on how to deploy Ruby on Rails application. If you had an insta
 
 
 - [AWS EC2 ubuntu instance on Apache + Passenger](https://github.com/linp21847/deploy/blob/master/aws-ubuntu.md)
+
+- [Config Automatic Deply with Git hook](https://github.com/linp21847/deploy/blob/master/autodeploy-githook.md)
