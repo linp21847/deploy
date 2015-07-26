@@ -1,4 +1,4 @@
-# Step 1. Creating Our Repository
+## Step 1. Creating Our Repository
 
 Login to your VPS from command line and type the following:
 ```sh
@@ -51,7 +51,7 @@ When you finish typing, press 'control-d' to save. In order to execute the file,
 $ chmod +x post-receive
 ```
 
-#Step 3 - Local Machine
+##Step 3 - Local Machine
 
 Create your repo:
 ```sh
